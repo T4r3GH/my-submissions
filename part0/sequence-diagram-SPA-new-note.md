@@ -1,6 +1,7 @@
 ## Sequence Diagram For SPA new note
 
 ```mermaid
+sequenceDiagram
    participant browser
    participant server
 

@@ -1,8 +1,9 @@
 ## Sequence Diagram For SPA
 
 ```mermaid
-   participant browser
-   participant server
+sequenceDiagram
+    participant browser
+    participant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
